@@ -1,7 +1,9 @@
-﻿namespace Core.IRepos
+﻿using Core.ViewModels;
+
+namespace Core.IRepos
 {
     public interface ISignin
     {
-        //Task<AuthModel> SignIn(User user);
+        Task<AuthModel> SignInAsync(SignInVM model);
     }
 }

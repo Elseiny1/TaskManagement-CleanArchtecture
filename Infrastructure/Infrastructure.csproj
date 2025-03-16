@@ -20,7 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\Core.csproj" />
+    <ProjectReference Include="..\Application\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repos\" />
   </ItemGroup>
 
 </Project>

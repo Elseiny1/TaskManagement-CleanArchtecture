@@ -2867,14 +2867,17 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "Core/1.0.0": {
+      "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Core": "9.0.2"
+        },
         "compile": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.dll": {}
+          "bin/placeholder/Domain.dll": {}
         }
       }
     }
@@ -7571,15 +7574,15 @@
         "version.txt"
       ]
     },
-    "Core/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
-      "path": "../Application/Core.csproj",
-      "msbuildProject": "../Application/Core.csproj"
+      "path": "../Application/Domain.csproj",
+      "msbuildProject": "../Application/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Core >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.2",
       "Microsoft.EntityFrameworkCore >= 9.0.2",
@@ -7621,8 +7624,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj": {
-              "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj"
+            "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj": {
+              "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj"
             }
           }
         }

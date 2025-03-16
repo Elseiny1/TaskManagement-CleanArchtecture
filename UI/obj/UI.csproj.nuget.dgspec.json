@@ -4,12 +4,12 @@
     "D:\\Ahmed\\TaskManagment\\TaskManagement\\UI\\UI.csproj": {}
   },
   "projects": {
-    "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj": {
+    "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj",
+        "projectUniqueName": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
         "outputPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -97,8 +103,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj": {
-                "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj"
+              "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj": {
+                "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj"
               }
             }
           }
@@ -198,8 +204,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj": {
-                "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Core.csproj"
+              "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj": {
+                "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Application\\Domain.csproj"
               },
               "D:\\Ahmed\\TaskManagment\\TaskManagement\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "D:\\Ahmed\\TaskManagment\\TaskManagement\\Infrastructure\\Infrastructure.csproj"
